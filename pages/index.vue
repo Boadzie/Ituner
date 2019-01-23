@@ -4,7 +4,7 @@
     <br>
     <v-layout>
       <v-flex md4 offset-md4>
-        <v-form @submit.prevent="submit" ref="search" v-model="valid" lazy-validation>
+        <v-form @submit.prevent="submit" ref="search" lazy-validation>
           <v-text-field v-model="search" label="search" required autofocus></v-text-field>
         </v-form>
       </v-flex>
