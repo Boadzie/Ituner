@@ -3,15 +3,21 @@
     <div>
       <ToolBar/>
       <nuxt/>
+      <br>
+      <br>
+      <br>
+      <Footer/>
     </div>
   </section>
 </template>
 
 <script>
 import ToolBar from "~/components/ToolBar.vue";
+import Footer from "~/components/Footer.vue";
 export default {
   components: {
-    ToolBar
+    ToolBar,
+    Footer
   }
 };
 </script>
